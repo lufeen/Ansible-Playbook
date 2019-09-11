@@ -1,0 +1,9 @@
+---
+ - hosts: java_machine
+   vars: 
+    content: "Welcome to ansible"
+   tasks:
+   - copy:
+      dest: /tmp/var1.txt
+      content: "{{content}}"
+... 

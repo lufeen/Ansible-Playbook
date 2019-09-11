@@ -1,0 +1,9 @@
+---
+ - hosts: java_machine
+   vars:
+     mycontent: "This file is created using var concept"
+   tasks:
+   - copy:
+      dest: /tmp/var_file.txt
+      content: "{{mycontent}}"
+...

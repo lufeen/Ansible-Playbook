@@ -1,0 +1,10 @@
+---
+ - hosts: javaservers
+   tasks:
+    - name: debug  
+      debug: 
+        msg: javaserver debug#1 task       
+
+...
+
+
