@@ -1,0 +1,8 @@
+#variables at command line 
+---
+ - hosts: java_machine
+   tasks:
+   - debug:
+      msg: "Hi, {{var1}} are {{var2}} ?" 
+    
+...
