@@ -3,6 +3,6 @@
  - hosts: java_machine
    tasks:
    - debug:
-      msg: "Hi, {{var1}} are {{var2}} ?" 
+      msg: "Hi {{var1}}, {{var2}} are {{var3}} ?" 
     
 ...
